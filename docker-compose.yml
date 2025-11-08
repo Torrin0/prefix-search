@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.0
+    container_name: prefix_search_es
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+      - bootstrap.memory_lock=true
+    ports:
+      - "9200:9200"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    networks:
+      - search_net
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9200/_cluster/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+
+  search_api:
+    build: .
+    container_name: prefix_search_api
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    ports:
+      - "5001:5000"
+    environment:
+      - ELASTICSEARCH_HOST=http://elasticsearch:9200
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    networks:
+      - search_net
+    command: python search_service.py
+
+volumes:
+  es_data:
+    driver: local
+
+networks:
+  search_net:
+    driver: bridge

@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import re
 
-# Простое отображение для транслитерации
 TRANSLIT_MAP = {
     'й': 'q', 'ц': 'w', 'у': 'e', 'к': 'r', 'е': 't', 'н': 'y', 'г': 'u', 'ш': 'i', 'щ': 'o', 'з': 'p',
     'х': '[', 'ъ': ']', 'ф': 'a', 'ы': 's', 'в': 'd', 'а': 'f', 'п': 'g', 'р': 'h', 'о': 'j', 'л': 'k',
@@ -44,23 +43,23 @@ def convert_layout(text, to_latin=True):
 
 def extract_numeric_attributes(query):
     attributes = {}
-    
+
     volume_match = re.search(r'(\d+(?:\.\d+)?)\s*л', query, re.IGNORECASE)
     if volume_match:
         attributes['volume'] = float(volume_match.group(1))
         attributes['volume_unit'] = 'л'
-    
+
     weight_match = re.search(r'(\d+(?:\.\d+)?)\s*(кг|г|kg|g)', query, re.IGNORECASE)
     if weight_match:
         attributes['weight'] = float(weight_match.group(1))
         attributes['weight_unit'] = weight_match.group(2).lower()
-    
+
     return attributes
 
 
 def normalize_query(query):
     query = query.strip().lower()
-    
+
     result = {
         'original': query,
         'normalized': query,
@@ -68,13 +67,13 @@ def normalize_query(query):
         'cyrillic_variant': None,
         'attributes': extract_numeric_attributes(query)
     }
-    
+
     if has_cyrillic(query):
         result['latin_variant'] = convert_layout(query, to_latin=True)
-    
+
     if has_latin(query):
         result['cyrillic_variant'] = convert_layout(query, to_latin=False)
-    
+
     return result
 
 

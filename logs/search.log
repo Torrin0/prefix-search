@@ -1,0 +1,171 @@
+2025-11-08 13:09:20,085 - elastic_transport.transport - INFO - HEAD http://elasticsearch:9200/ [status:200 duration:0.053s]
+2025-11-08 13:09:20,086 - __main__ - INFO - Подключение к Elasticsearch установлено
+2025-11-08 13:09:20,090 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2025-11-08 13:09:20,090 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 13:10:57,279 - __main__ - INFO - Поиск: оригинал='ма', очищенный='ма'
+2025-11-08 13:10:57,280 - __main__ - INFO - Варианты запроса: ['ма', 'vf']
+2025-11-08 13:10:57,356 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.075s]
+2025-11-08 13:10:57,359 - __main__ - INFO - Результатов до фильтрации: 5, после: 5
+2025-11-08 13:10:57,362 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=ма&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,366 - __main__ - INFO - Поиск: оригинал='масло сл', очищенный='масло сл'
+2025-11-08 13:10:57,366 - __main__ - INFO - Варианты запроса: ['vfckj ck', 'масло сл']
+2025-11-08 13:10:57,379 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.013s]
+2025-11-08 13:10:57,380 - __main__ - INFO - Результатов до фильтрации: 5, после: 5
+2025-11-08 13:10:57,380 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=масло+сл&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,382 - __main__ - INFO - Поиск: оригинал='масло сливочное', очищенный='масло сливочное'
+2025-11-08 13:10:57,382 - __main__ - INFO - Варианты запроса: ['vfckj ckbdjxyjt', 'масло сливочное']
+2025-11-08 13:10:57,393 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.010s]
+2025-11-08 13:10:57,394 - __main__ - INFO - Результатов до фильтрации: 5, после: 5
+2025-11-08 13:10:57,394 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=масло+сливочное&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,396 - __main__ - INFO - Поиск: оригинал='масло раст', очищенный='масло раст'
+2025-11-08 13:10:57,396 - __main__ - INFO - Варианты запроса: ['масло раст', 'vfckj hfcn']
+2025-11-08 13:10:57,406 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.010s]
+2025-11-08 13:10:57,409 - __main__ - INFO - Результатов до фильтрации: 5, после: 5
+2025-11-08 13:10:57,409 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=масло+раст&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,411 - __main__ - INFO - Поиск: оригинал='масло раст 10л', очищенный='масло раст'
+2025-11-08 13:10:57,411 - __main__ - INFO - Варианты запроса: ['масло раст', 'vfckj hfcn 10k']
+2025-11-08 13:10:57,419 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.008s]
+2025-11-08 13:10:57,419 - __main__ - INFO - Результатов до фильтрации: 5, после: 5
+2025-11-08 13:10:57,420 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=масло+раст+10л&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,421 - __main__ - INFO - Поиск: оригинал='prosecco rose', очищенный='prosecco rose'
+2025-11-08 13:10:57,422 - __main__ - INFO - Варианты запроса: ['prosecco rose', 'зкщыуссщ кщыу']
+2025-11-08 13:10:57,432 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.010s]
+2025-11-08 13:10:57,432 - __main__ - INFO - Результатов до фильтрации: 1, после: 1
+2025-11-08 13:10:57,432 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=prosecco+rose&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,434 - __main__ - INFO - Поиск: оригинал='riesling', очищенный='riesling'
+2025-11-08 13:10:57,435 - __main__ - INFO - Варианты запроса: ['riesling', 'кшуыдштп']
+2025-11-08 13:10:57,440 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.006s]
+2025-11-08 13:10:57,441 - __main__ - INFO - Результатов до фильтрации: 1, после: 1
+2025-11-08 13:10:57,441 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=riesling&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,443 - __main__ - INFO - Поиск: оригинал='pro', очищенный='pro'
+2025-11-08 13:10:57,443 - __main__ - INFO - Варианты запроса: ['pro', 'зкщ']
+2025-11-08 13:10:57,449 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.006s]
+2025-11-08 13:10:57,450 - __main__ - INFO - Результатов до фильтрации: 1, после: 1
+2025-11-08 13:10:57,450 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=pro&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,452 - __main__ - INFO - Поиск: оригинал='xfq', очищенный='xfq'
+2025-11-08 13:10:57,452 - __main__ - INFO - Варианты запроса: ['xfq', 'чай']
+2025-11-08 13:10:57,459 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.007s]
+2025-11-08 13:10:57,459 - __main__ - INFO - Результатов до фильтрации: 3, после: 3
+2025-11-08 13:10:57,459 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=xfq&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,461 - __main__ - INFO - Поиск: оригинал='vfckj', очищенный='vfckj'
+2025-11-08 13:10:57,461 - __main__ - INFO - Варианты запроса: ['масло', 'vfckj']
+2025-11-08 13:10:57,470 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.008s]
+2025-11-08 13:10:57,470 - __main__ - INFO - Результатов до фильтрации: 5, после: 5
+2025-11-08 13:10:57,470 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=vfckj&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,472 - __main__ - INFO - Поиск: оригинал='чай', очищенный='чай'
+2025-11-08 13:10:57,472 - __main__ - INFO - Варианты запроса: ['xfq', 'чай']
+2025-11-08 13:10:57,477 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.005s]
+2025-11-08 13:10:57,477 - __main__ - INFO - Результатов до фильтрации: 3, после: 3
+2025-11-08 13:10:57,478 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=чай&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,479 - __main__ - INFO - Поиск: оригинал='чай зе', очищенный='чай зе'
+2025-11-08 13:10:57,479 - __main__ - INFO - Варианты запроса: ['xfq pt', 'чай зе']
+2025-11-08 13:10:57,486 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.006s]
+2025-11-08 13:10:57,486 - __main__ - INFO - Результатов до фильтрации: 4, после: 3
+2025-11-08 13:10:57,487 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=чай+зе&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,488 - __main__ - INFO - Поиск: оригинал='творог', очищенный='творог'
+2025-11-08 13:10:57,489 - __main__ - INFO - Варианты запроса: ['творог', 'ndjhju']
+2025-11-08 13:10:57,493 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.005s]
+2025-11-08 13:10:57,496 - __main__ - INFO - Результатов до фильтрации: 1, после: 1
+2025-11-08 13:10:57,497 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=творог&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,499 - __main__ - INFO - Поиск: оригинал='кефир', очищенный='кефир'
+2025-11-08 13:10:57,499 - __main__ - INFO - Варианты запроса: ['rtabh', 'кефир']
+2025-11-08 13:10:57,508 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.009s]
+2025-11-08 13:10:57,509 - __main__ - INFO - Результатов до фильтрации: 1, после: 1
+2025-11-08 13:10:57,509 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=кефир&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,512 - __main__ - INFO - Поиск: оригинал='йогурт', очищенный='йогурт'
+2025-11-08 13:10:57,513 - __main__ - INFO - Варианты запроса: ['йогурт', 'qjuehn']
+2025-11-08 13:10:57,521 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.007s]
+2025-11-08 13:10:57,521 - __main__ - INFO - Результатов до фильтрации: 1, после: 1
+2025-11-08 13:10:57,522 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=йогурт&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,524 - __main__ - INFO - Поиск: оригинал='сливочное', очищенный='сливочное'
+2025-11-08 13:10:57,524 - __main__ - INFO - Варианты запроса: ['сливочное', 'ckbdjxyjt']
+2025-11-08 13:10:57,532 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.008s]
+2025-11-08 13:10:57,532 - __main__ - INFO - Результатов до фильтрации: 2, после: 2
+2025-11-08 13:10:57,532 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=сливочное&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,535 - __main__ - INFO - Поиск: оригинал='cheddar', очищенный='cheddar'
+2025-11-08 13:10:57,535 - __main__ - INFO - Варианты запроса: ['cheddar', 'сруввфк']
+2025-11-08 13:10:57,540 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.005s]
+2025-11-08 13:10:57,540 - __main__ - INFO - Результатов до фильтрации: 1, после: 1
+2025-11-08 13:10:57,540 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=cheddar&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,542 - __main__ - INFO - Поиск: оригинал='cheddar 5kg', очищенный='cheddar'
+2025-11-08 13:10:57,543 - __main__ - INFO - Варианты запроса: ['сруввфк п', 'cheddar']
+2025-11-08 13:10:57,550 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.007s]
+2025-11-08 13:10:57,550 - __main__ - INFO - Результатов до фильтрации: 5, после: 5
+2025-11-08 13:10:57,550 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=cheddar+5kg&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,552 - __main__ - INFO - Поиск: оригинал='сыр', очищенный='сыр'
+2025-11-08 13:10:57,552 - __main__ - INFO - Варианты запроса: ['csh', 'сыр']
+2025-11-08 13:10:57,557 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.005s]
+2025-11-08 13:10:57,558 - __main__ - INFO - Результатов до фильтрации: 2, после: 2
+2025-11-08 13:10:57,558 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=сыр&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,560 - __main__ - INFO - Поиск: оригинал='паста', очищенный='паста'
+2025-11-08 13:10:57,560 - __main__ - INFO - Варианты запроса: ['gfcnf', 'паста']
+2025-11-08 13:10:57,566 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.005s]
+2025-11-08 13:10:57,566 - __main__ - INFO - Результатов до фильтрации: 2, после: 2
+2025-11-08 13:10:57,566 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=паста&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,568 - __main__ - INFO - Поиск: оригинал='спагетти', очищенный='спагетти'
+2025-11-08 13:10:57,568 - __main__ - INFO - Варианты запроса: ['cgfutnnb', 'спагетти']
+2025-11-08 13:10:57,573 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.005s]
+2025-11-08 13:10:57,573 - __main__ - INFO - Результатов до фильтрации: 1, после: 1
+2025-11-08 13:10:57,574 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=спагетти&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,575 - __main__ - INFO - Поиск: оригинал='колба', очищенный='колба'
+2025-11-08 13:10:57,575 - __main__ - INFO - Варианты запроса: ['rjk,f', 'колба']
+2025-11-08 13:10:57,581 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.005s]
+2025-11-08 13:10:57,581 - __main__ - INFO - Результатов до фильтрации: 3, после: 3
+2025-11-08 13:10:57,581 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=колба&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,584 - __main__ - INFO - Поиск: оригинал='ветчина', очищенный='ветчина'
+2025-11-08 13:10:57,584 - __main__ - INFO - Варианты запроса: ['dtnxbyf', 'ветчина']
+2025-11-08 13:10:57,588 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.004s]
+2025-11-08 13:10:57,588 - __main__ - INFO - Результатов до фильтрации: 2, после: 2
+2025-11-08 13:10:57,589 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=ветчина&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,591 - __main__ - INFO - Поиск: оригинал='прошутто', очищенный='прошутто'
+2025-11-08 13:10:57,591 - __main__ - INFO - Варианты запроса: ['прошутто', 'ghjiennj']
+2025-11-08 13:10:57,595 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.004s]
+2025-11-08 13:10:57,595 - __main__ - INFO - Результатов до фильтрации: 1, после: 1
+2025-11-08 13:10:57,596 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=прошутто&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,597 - __main__ - INFO - Поиск: оригинал='молоко', очищенный='молоко'
+2025-11-08 13:10:57,597 - __main__ - INFO - Варианты запроса: ['vjkjrj', 'молоко']
+2025-11-08 13:10:57,601 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.004s]
+2025-11-08 13:10:57,601 - __main__ - INFO - Результатов до фильтрации: 2, после: 2
+2025-11-08 13:10:57,602 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=молоко&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,603 - __main__ - INFO - Поиск: оригинал='мол', очищенный='мол'
+2025-11-08 13:10:57,603 - __main__ - INFO - Варианты запроса: ['vjk', 'мол']
+2025-11-08 13:10:57,608 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.005s]
+2025-11-08 13:10:57,608 - __main__ - INFO - Результатов до фильтрации: 5, после: 5
+2025-11-08 13:10:57,609 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=мол&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,611 - __main__ - INFO - Поиск: оригинал='мо', очищенный='мо'
+2025-11-08 13:10:57,611 - __main__ - INFO - Варианты запроса: ['мо', 'vj']
+2025-11-08 13:10:57,616 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.005s]
+2025-11-08 13:10:57,618 - __main__ - INFO - Результатов до фильтрации: 5, после: 5
+2025-11-08 13:10:57,619 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=мо&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,621 - __main__ - INFO - Поиск: оригинал='кл', очищенный='кл'
+2025-11-08 13:10:57,621 - __main__ - INFO - Варианты запроса: ['rk', 'кл']
+2025-11-08 13:10:57,625 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.003s]
+2025-11-08 13:10:57,625 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=кл&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,627 - __main__ - INFO - Поиск: оригинал='гкщыуссщ', очищенный='гкщыуссщ'
+2025-11-08 13:10:57,627 - __main__ - INFO - Варианты запроса: ['urosecco', 'гкщыуссщ']
+2025-11-08 13:10:57,631 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.003s]
+2025-11-08 13:10:57,631 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=гкщыуссщ&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:10:57,633 - __main__ - INFO - Поиск: оригинал='оливковое', очищенный='оливковое'
+2025-11-08 13:10:57,633 - __main__ - INFO - Варианты запроса: ['оливковое', 'jkbdrjdjt']
+2025-11-08 13:10:57,637 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.004s]
+2025-11-08 13:10:57,637 - __main__ - INFO - Результатов до фильтрации: 1, после: 1
+2025-11-08 13:10:57,638 - werkzeug - INFO - 127.0.0.1 - - [08/Nov/2025 13:10:57] "GET /search?q=оливковое&top_k=5 HTTP/1.1" 200 -
+2025-11-08 13:14:01,057 - __main__ - INFO - Поиск: оригинал='Ð¼Ð°ÑÐ»Ð¾', очищенный='ð¼ð°ñð»ð¾'
+2025-11-08 13:14:01,060 - __main__ - INFO - Варианты запроса: ['ð¼ð°ñ\x81ð»ð¾']
+2025-11-08 13:14:01,088 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.025s]
+2025-11-08 13:14:01,090 - werkzeug - INFO - 192.168.65.1 - - [08/Nov/2025 13:14:01] "GET /search?q=Ð¼Ð°Ñ\x81Ð»Ð¾ HTTP/1.1" 200 -
+2025-11-08 13:14:01,105 - elastic_transport.transport - INFO - HEAD http://elasticsearch:9200/ [status:200 duration:0.002s]
+2025-11-08 13:14:01,106 - werkzeug - INFO - 192.168.65.1 - - [08/Nov/2025 13:14:01] "GET /health HTTP/1.1" 200 -
+2025-11-08 13:15:16,762 - __main__ - INFO - Поиск: оригинал='масло', очищенный='масло'
+2025-11-08 13:15:16,764 - __main__ - INFO - Варианты запроса: ['масло', 'vfckj']
+2025-11-08 13:15:16,793 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.027s]
+2025-11-08 13:15:16,793 - __main__ - INFO - Результатов до фильтрации: 5, после: 5
+2025-11-08 13:15:16,794 - werkzeug - INFO - 192.168.65.1 - - [08/Nov/2025 13:15:16] "GET /search?q=масло HTTP/1.1" 200 -
+2025-11-08 13:15:24,970 - __main__ - INFO - Поиск: оригинал='масло', очищенный='масло'
+2025-11-08 13:15:24,972 - __main__ - INFO - Варианты запроса: ['масло', 'vfckj']
+2025-11-08 13:15:25,015 - elastic_transport.transport - INFO - POST http://elasticsearch:9200/products/_search [status:200 duration:0.040s]
+2025-11-08 13:15:25,015 - __main__ - INFO - Результатов до фильтрации: 5, после: 5
+2025-11-08 13:15:25,017 - werkzeug - INFO - 192.168.65.1 - - [08/Nov/2025 13:15:25] "GET /search?q=масло HTTP/1.1" 200 -
