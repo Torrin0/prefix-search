@@ -1,0 +1,8 @@
+{
+  "total_queries": 30,
+  "coverage": 0.9666666666666667,
+  "relevance_rate": 0.9,
+  "avg_precision_at_3": 0.8666666666666667,
+  "category_match_rate": 0.9,
+  "status": "PASSED"
+}

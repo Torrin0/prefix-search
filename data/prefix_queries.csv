@@ -1,0 +1,31 @@
+query,store,expected_category,notes
+ма,Store D,Молочные продукты,Mobile Shopper - короткий префикс
+масло сл,Store D,Масла и жиры,Mobile Shopper - уточнение
+масло сливочное,Store D,Масла и жиры,Mobile Shopper - полный запрос
+масло раст,Store C,Масла и жиры,B2B - растительное масло
+масло раст 10л,Store C,Масла и жиры,B2B - с объемом
+prosecco rose,Store F,Вино,Premium Buyer - латиница
+riesling,Store F,Вино,Premium Buyer - немецкое вино
+pro,Store F,Вино,Premium Buyer - префикс
+xfq,Store E,Чай,General Retail - раскладка (чай на латинице)
+vfckj,Store E,Масла и жиры,General Retail - раскладка (масло на латинице)
+чай,Store E,Чай,General Retail - простой чай
+чай зе,Store E,Чай,General Retail - зеленый чай
+творог,Store D,Молочные продукты,Mobile - творог
+кефир,Store D,Молочные продукты,Mobile - кефир
+йогурт,Store D,Молочные продукты,Mobile - йогурт
+сливочное,Store D,Масла и жиры,Mobile - масло сливочное
+cheddar,Store C,Сыр,B2B - чеддар сыр
+cheddar 5kg,Store C,Сыр,B2B - сыр с весом
+сыр,Store E,Сыр,Retail - сыр
+паста,Store E,Макаронные изделия,Retail - макароны
+спагетти,Store E,Макаронные изделия,Retail - спагетти
+колба,Store E,Колбасные изделия,Retail - колбаса
+ветчина,Store E,Колбасные изделия,Retail - ветчина
+прошутто,Store F,Колбасные изделия,Premium - итальянская ветчина
+молоко,Store D,Молочные продукты,Mobile - молоко
+мол,Store D,Молочные продукты,Mobile - префикс молоко
+мо,Store D,Молочные продукты,Mobile - очень короткий префикс
+кл,Store E,Молочные продукты,Retail - клавиатурная ошибка (мол -> кл)
+гкщыуссщ,Store E,Вино,Retail - prosecco на кириллице
+оливковое,Store E,Масла и жиры,Retail - оливковое масло

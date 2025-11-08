@@ -1,0 +1,278 @@
+<catalog>
+  <product>
+    <id>prod_0001</id>
+    <name>Молоко коровье 3.2%</name>
+    <category>Молочные продукты</category>
+    <brand>Простоквашино</brand>
+    <weight>1000мл</weight>
+    <package_size>1000мл</package_size>
+    <keywords>молоко</keywords>
+    <description>Молоко коровье 3.2% от бренда Простоквашино</description>
+    <price>95</price>
+    <image_url>https://example.com/images/prod_0001.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0002</id>
+    <name>Молоко коровье 2.5%</name>
+    <category>Молочные продукты</category>
+    <brand>Домик в деревне</brand>
+    <weight>1л</weight>
+    <package_size>1л</package_size>
+    <keywords>молоко</keywords>
+    <description>Молоко коровье 2.5% от бренда Домик в деревне</description>
+    <price>85</price>
+    <image_url>https://example.com/images/prod_0002.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0003</id>
+    <name>Кефир 1%</name>
+    <category>Молочные продукты</category>
+    <brand>Простоквашино</brand>
+    <weight>500мл</weight>
+    <package_size>500мл</package_size>
+    <keywords>кефир молочный</keywords>
+    <description>Кефир 1% от бренда Простоквашино</description>
+    <price>45</price>
+    <image_url>https://example.com/images/prod_0003.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0004</id>
+    <name>Йогурт натуральный</name>
+    <category>Молочные продукты</category>
+    <brand>Президент</brand>
+    <weight>200г</weight>
+    <package_size>200г</package_size>
+    <keywords>йогурт</keywords>
+    <description>Йогурт натуральный от бренда Президент</description>
+    <price>55</price>
+    <image_url>https://example.com/images/prod_0004.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0005</id>
+    <name>Творог зернистый 5%</name>
+    <category>Молочные продукты</category>
+    <brand>Простоквашино</brand>
+    <weight>200г</weight>
+    <package_size>200г</package_size>
+    <keywords>творог</keywords>
+    <description>Творог зернистый 5% от бренда Простоквашино</description>
+    <price>65</price>
+    <image_url>https://example.com/images/prod_0005.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0006</id>
+    <name>Масло сливочное 82.5%</name>
+    <category>Масла и жиры</category>
+    <brand>Простоквашино</brand>
+    <weight>180г</weight>
+    <package_size>180г</package_size>
+    <keywords>масло сливочное пачка</keywords>
+    <description>Масло сливочное 82.5% от бренда Простоквашино</description>
+    <price>145</price>
+    <image_url>https://example.com/images/prod_0006.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0007</id>
+    <name>Масло сливочное 72.5%</name>
+    <category>Масла и жиры</category>
+    <brand>Домик в деревне</brand>
+    <weight>200г</weight>
+    <package_size>200г</package_size>
+    <keywords>масло сливочное</keywords>
+    <description>Масло сливочное 72.5% от бренда Домик в деревне</description>
+    <price>120</price>
+    <image_url>https://example.com/images/prod_0007.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0008</id>
+    <name>Масло подсолнечное рафинированное</name>
+    <category>Масла и жиры</category>
+    <brand>Острова</brand>
+    <weight>1л</weight>
+    <package_size>1л</package_size>
+    <keywords>масло растительное</keywords>
+    <description>Масло подсолнечное рафинированное от бренда Острова</description>
+    <price>95</price>
+    <image_url>https://example.com/images/prod_0008.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0009</id>
+    <name>Масло подсолнечное нерафинированное</name>
+    <category>Масла и жиры</category>
+    <brand>Острова</brand>
+    <weight>500мл</weight>
+    <package_size>500мл</package_size>
+    <keywords>масло растительное</keywords>
+    <description>Масло подсолнечное нерафинированное от бренда Острова</description>
+    <price>65</price>
+    <image_url>https://example.com/images/prod_0009.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0010</id>
+    <name>Масло оливковое Extra Virgin</name>
+    <category>Масла и жиры</category>
+    <brand>Lactalis</brand>
+    <weight>250мл</weight>
+    <package_size>250мл</package_size>
+    <keywords>масло оливковое</keywords>
+    <description>Масло оливковое Extra Virgin от бренда Lactalis</description>
+    <price>180</price>
+    <image_url>https://example.com/images/prod_0010.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0011</id>
+    <name>Prosecco Rose</name>
+    <category>Вино</category>
+    <brand>Prosecco</brand>
+    <weight>750мл</weight>
+    <package_size>750мл</package_size>
+    <keywords>вино просекко розовое</keywords>
+    <description>Prosecco Rose от бренда Prosecco</description>
+    <price>450</price>
+    <image_url>https://example.com/images/prod_0011.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0012</id>
+    <name>Riesling Mosel</name>
+    <category>Вино</category>
+    <brand>Riesling</brand>
+    <weight>750мл</weight>
+    <package_size>750мл</package_size>
+    <keywords>вино белое</keywords>
+    <description>Riesling Mosel от бренда Riesling</description>
+    <price>380</price>
+    <image_url>https://example.com/images/prod_0012.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0013</id>
+    <name>Cabernet Sauvignon</name>
+    <category>Вино</category>
+    <brand>Домик</brand>
+    <weight>750мл</weight>
+    <package_size>750мл</package_size>
+    <keywords>вино красное</keywords>
+    <description>Cabernet Sauvignon от бренда Домик</description>
+    <price>320</price>
+    <image_url>https://example.com/images/prod_0013.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0014</id>
+    <name>Чай чёрный листовой</name>
+    <category>Чай</category>
+    <brand>Чайная фабрика</brand>
+    <weight>100г</weight>
+    <package_size>100г</package_size>
+    <keywords>чай чёрный</keywords>
+    <description>Чай чёрный листовой от бренда Чайная фабрика</description>
+    <price>120</price>
+    <image_url>https://example.com/images/prod_0014.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0015</id>
+    <name>Чай зелёный молодой</name>
+    <category>Чай</category>
+    <brand>Чайная фабрика</brand>
+    <weight>75г</weight>
+    <package_size>75г</package_size>
+    <keywords>чай зелёный</keywords>
+    <description>Чай зелёный молодой от бренда Чайная фабрика</description>
+    <price>145</price>
+    <image_url>https://example.com/images/prod_0015.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0016</id>
+    <name>Чай пуэр</name>
+    <category>Чай</category>
+    <brand>Острова</brand>
+    <weight>50г</weight>
+    <package_size>50г</package_size>
+    <keywords>чай пуэр</keywords>
+    <description>Чай пуэр от бренда Острова</description>
+    <price>180</price>
+    <image_url>https://example.com/images/prod_0016.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0017</id>
+    <name>Макароны твёрдых сортов</name>
+    <category>Макаронные изделия</category>
+    <brand>Макаронник</brand>
+    <weight>500g</weight>
+    <package_size>500g</package_size>
+    <keywords>макароны паста</keywords>
+    <description>Макароны твёрдых сортов от бренда Макаронник</description>
+    <price>45</price>
+    <image_url>https://example.com/images/prod_0017.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0018</id>
+    <name>Спагетти</name>
+    <category>Макаронные изделия</category>
+    <brand>Макаронник</brand>
+    <weight>400g</weight>
+    <package_size>400g</package_size>
+    <keywords>паста спагетти</keywords>
+    <description>Спагетти от бренда Макаронник</description>
+    <price>40</price>
+    <image_url>https://example.com/images/prod_0018.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0019</id>
+    <name>Cheddar 5kg</name>
+    <category>Сыр</category>
+    <brand>Lactalis</brand>
+    <weight>5kg</weight>
+    <package_size>5kg</package_size>
+    <keywords>чеддар сыр</keywords>
+    <description>Cheddar 5kg от бренда Lactalis</description>
+    <price>2500</price>
+    <image_url>https://example.com/images/prod_0019.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0020</id>
+    <name>Сыр Пармезан</name>
+    <category>Сыр</category>
+    <brand>Lactalis</brand>
+    <weight>200g</weight>
+    <package_size>200g</package_size>
+    <keywords>сыр пармезан</keywords>
+    <description>Сыр Пармезан от бренда Lactalis</description>
+    <price>320</price>
+    <image_url>https://example.com/images/prod_0020.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0021</id>
+    <name>Прошутто нарезанное</name>
+    <category>Колбасные изделия</category>
+    <brand>Острова</brand>
+    <weight>100g</weight>
+    <package_size>100g</package_size>
+    <keywords>ветчина прошутто</keywords>
+    <description>Прошутто нарезанное от бренда Острова</description>
+    <price>180</price>
+    <image_url>https://example.com/images/prod_0021.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0022</id>
+    <name>Ветчина вареная</name>
+    <category>Колбасные изделия</category>
+    <brand>Простоквашино</brand>
+    <weight>300g</weight>
+    <package_size>300g</package_size>
+    <keywords>ветчина</keywords>
+    <description>Ветчина вареная от бренда Простоквашино</description>
+    <price>120</price>
+    <image_url>https://example.com/images/prod_0022.jpg</image_url>
+  </product>
+  <product>
+    <id>prod_0023</id>
+    <name>Салями острая</name>
+    <category>Колбасные изделия</category>
+    <brand>Острова</brand>
+    <weight>100g</weight>
+    <package_size>100g</package_size>
+    <keywords>салями колбаса</keywords>
+    <description>Салями острая от бренда Острова</description>
+    <price>95</price>
+    <image_url>https://example.com/images/prod_0023.jpg</image_url>
+  </product>
+</catalog>
